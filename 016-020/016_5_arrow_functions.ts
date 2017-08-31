@@ -1,10 +1,10 @@
 var fullName = (first, last) => {
   return first + " " + last;
 }
+//=> is like the lambda in ruby
+console.log(fullName('Austin', 'Bentley'));
 
-console.log(fullName('Jordan', 'Hudgens'));
-
-// Jordan Hudgens
+// Austin Bentey
 
 var gradeGenerator = (grade: number) : string => {
   if (grade < 60) {

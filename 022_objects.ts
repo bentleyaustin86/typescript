@@ -1,7 +1,7 @@
 var realUser = {
   email: 'test@test.com',
-  firstName: 'Jordan',
-  lastName: 'Hudgens',
+  firstName: 'Austin',
+  lastName: 'Bentley',
   sayHi() {
     return "Hey there!";
   }

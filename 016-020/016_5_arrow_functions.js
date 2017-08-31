@@ -1,8 +1,10 @@
-// function fullName(first, last) {
-//  return first + " " + last;
-// }
-// console.log(fullName('Austin', 'Bentley'));
-function gradeGenerator(grade) {
+var fullName = function (first, last) {
+    return first + " " + last;
+};
+//=> is like the lambda in ruby
+console.log(fullName('Austin', 'Bentley'));
+// Austin Bentey
+var gradeGenerator = function (grade) {
     if (grade < 60) {
         return 'F';
     }
@@ -18,8 +20,11 @@ function gradeGenerator(grade) {
     else {
         return 'A';
     }
-}
+};
 console.log(gradeGenerator(45));
 console.log(gradeGenerator(100));
 console.log(gradeGenerator(80));
-//# sourceMappingURL=015_functions.js.map
+// F
+// A
+// B 
+//# sourceMappingURL=016_5_arrow_functions.js.map

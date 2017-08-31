@@ -2,7 +2,7 @@
 //  return first + " " + last;
 // }
 
-// console.log(fullName('Jordan', 'Hudgens'));
+// console.log(fullName('Austin', 'Bentley'));
 
 function gradeGenerator(grade: number) : string {
   if (grade < 60) {

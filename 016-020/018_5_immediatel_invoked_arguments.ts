@@ -5,9 +5,9 @@ fullName = function(first : string, last : string) {
   return first + " " + last;
 }
 
-console.log(fullName('Jordan', 'Hudgens'));
+console.log(fullName('Austin', 'Bentley'));
 
 // Immediately invoked version
 (function(first : string, last : string) {
   console.log(first + " " + last);  
-})('Tiffany', 'Hudgens');
+})('Whitney', 'Comstock');

@@ -1,50 +1,36 @@
 // functions have access to any public variables in the outer scope
-
 // function nameFunction(name: string) : void {
 //   var n : string = name;
-
 //   function printName() {
 //     console.log(n);
 //   }
-
 //   printName();
 // }
-
-// nameFunction('Jordan');
-
+// nameFunction('Austin');
 // * * *
-
 // The inner function maintain access to the outer scope even AFTER the values are returned!
-
 // function nameFunction(name: string) {
 //   var n : string = name;
-
 //   return function() {
 //     console.log(n);
 //   }
 // }
-
-// var nameAgain = nameFunction('Tiffany');
+// var nameAgain = nameFunction('Whitney');
 // nameAgain();
-
 // * * *
-
 function lineup() {
-  var nowBatting : number = 1;
-
-  return {
-    nextBatter() { nowBatting++ },
-    currentBatter() { return nowBatting }
-  }
+    var nowBatting = 1;
+    return {
+        nextBatter: function () { nowBatting++; },
+        currentBatter: function () { return nowBatting; }
+    };
 }
-
-let batters = lineup();
-
+var batters = lineup();
 console.log(batters.currentBatter());
 batters.nextBatter();
 console.log(batters.currentBatter());
 batters.nextBatter();
 console.log(batters.currentBatter());
-
-let pitchers = lineup();
+var pitchers = lineup();
 console.log(pitchers.currentBatter());
+//# sourceMappingURL=019_closure_introduction.js.map

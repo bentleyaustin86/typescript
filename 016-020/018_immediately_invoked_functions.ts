@@ -1,4 +1,4 @@
-var names : string[] = ['Jordan', 'Tiffany', 'Kristine'];
+var names : string[] = ['Austin', 'Whitney', 'Dax'];
 var counter : number = 0;
 
 (function() {
