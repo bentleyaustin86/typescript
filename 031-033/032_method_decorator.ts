@@ -25,6 +25,6 @@ function admin(target : Object, propertyKey : string, descriptor : TypedProperty
 var post = new AccountsPayable;
 post.deleteAccount();
 
-// Doing admin check
+// Doing admin check (since @admin was called first the decorator is called first ie: line 5)
 // Working in the billing department
 // Deleting account...

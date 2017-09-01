@@ -22,3 +22,4 @@ function processTwo() {
 // processTwo has run
 // processTwo has been called
 // processOne has been called
+// the console.log(s) get printed out like a ladder p1->p2->p2 called->p1 called

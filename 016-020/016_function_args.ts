@@ -17,4 +17,4 @@ function lineupCard(team: string, ...players: string[]) {
   }
 }
 
-lineupCard('Jazz', 'Altuve', 'Correra', 'Bregman');
+lineupCard('Jutz', 'Altuve', 'Correra', 'Bregman');

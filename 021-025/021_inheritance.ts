@@ -9,6 +9,8 @@ class Report {
 class Invoice extends Report {
   constructor(public name : string, public total : number) { super(name); }
 
+  // super is referring to the 'parent class'
+
   printInvoice() {
     return this.name + ", " + this.total;
   } 
@@ -22,8 +24,8 @@ class BillOfLading extends Report {
   } 
 }
 
-var invoice = new Invoice('Google', 200);
-var bol = new BillOfLading('Google', 'Scottsdale', 'AZ');
+var invoice = new Invoice('Bark', 150);
+var bol = new BillOfLading('meow', 'South Jordan', 'UT');
 
 console.log(invoice.printInvoice());
 console.log(bol.printBol());

@@ -3,7 +3,7 @@ var realUser = {
   firstName: 'Austin',
   lastName: 'Bentley',
   sayHi() {
-    return "Hey there!";
+    return "Hey buddy!";
   }
 };
 

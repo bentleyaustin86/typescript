@@ -19,5 +19,5 @@ function lineupCard(team) {
         console.log(player);
     }
 }
-lineupCard('Jazz', 'Altuve', 'Correra', 'Bregman');
+lineupCard('Jutz', 'Altuve', 'Correra', 'Bregman');
 //# sourceMappingURL=016_function_args.js.map

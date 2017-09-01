@@ -9,7 +9,7 @@ let performUpload = function(imgStatus : string) : Promise<{imgStatus : string}>
     console.log(`Status: ${imgStatus}`);
     setTimeout(() => {
       resolve({ imgStatus: imgStatus });
-    }, 1000);
+    }, 2000);
   });
 }
 

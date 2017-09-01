@@ -40,7 +40,7 @@ class Post implements IPost {
   }
 }
 
-var post = new Post({ title: "My Great Title", body: "Some content"});
+var post = new Post({ title: "My Great title", body: "Some content"});
 console.log(post.title);
 console.log(post.body);
 post.printPost();
